@@ -40,8 +40,7 @@ This project is based in a JavaScript Node.js back-end JavaScript runtime enviro
 Just a little reminder about Node.js: "(Node.js) lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.
 
 Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
-Node.js is a tool in the Frameworks (Full Stack) category of a tech stack.
-
+Node.js is a tool in the Frameworks (Full Stack) category of a tech stack. Check this.
 
 
 ## Installation
@@ -54,7 +53,9 @@ Once installed add the following command and execute to create package.json:
 
 npm init -y
 
+Then, install the cowsay NPM Package (Node Package Manager, https://www.npmjs.com/package/cowsay) executing following command:
 
+npm i cowsay
 
 # nodejscounter
 Node.js exercise based in a counter
