@@ -57,6 +57,15 @@ Then, install the cowsay NPM Package (Node Package Manager, https://www.npmjs.co
 
 npm i cowsay
 
+Then, install the Nodemon packaje
+npm install -g nodemon
+
+Once is installed then indicate Nodemon to which file is gonna be listening.
+
+nodemon app.js
+
+We have also to install Express (http://www.expressjs.com) which will allow us to make the server more easily.npm
+
 # nodejscounter
 Node.js exercise based in a counter
 
