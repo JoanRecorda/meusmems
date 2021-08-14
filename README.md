@@ -42,6 +42,13 @@ Just a little reminder about Node.js: "(Node.js) lets developers use JavaScript 
 Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
 Node.js is a tool in the Frameworks (Full Stack) category of a tech stack. Check this.
 
+Once everything has been installed run the app with the following command:
+
+nodemon app.js
+
+nodemon app
+
+
 
 ## Installation
 ***
@@ -58,6 +65,7 @@ Then, install the cowsay NPM Package (Node Package Manager, https://www.npmjs.co
 npm i cowsay
 
 Then, install the Nodemon packaje
+
 npm install -g nodemon
 
 Once is installed then indicate Nodemon to which file is gonna be listening.
@@ -66,12 +74,21 @@ nodemon app.js
 
 We have also to install Express (http://www.expressjs.com) which will allow us to make the server more easily.npm
 
+npm install express --save
+
+Then use a template engine to create a dinamic webpage (http://expressjs.com/en/resources/template-engines.html) because we won't develope with the typical html. In this case, we'll use EJS template (https://ejs.co/#install).
+
+NOTE: the equivalent framework for Vue could be nuxtjs.org and for example for React would be nextjs.org framework that is so useful to make SPA webpages who renders from the server-side.
+
+npm install ejs
+
+
+
+
 # nodejscounter
 Node.js exercise based in a counter
 
 
-I'm watching following vídeo:
-https://www.youtube.com/watch?v=mG4U9t5nWG8
 
 
 # Headline H1

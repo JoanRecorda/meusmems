@@ -6,6 +6,15 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+        // Then we add the EJS templates engine for express
+        // and also specify the views directory. With this we
+        // are telling to Express that we'll use a template
+        // engine called EJS and those templates will be at
+        // the views directory.
+
+app.set("view engine", "ejs");
+app.set('views', __dirname + './views');
+
         // Serving static files in Express
         // (https://expressjs.com/en/starter/static-files.html)
         // Now we'll configure an static file, a middleware.
@@ -25,14 +34,15 @@ app.use(express.static(__dirname + "/public"))
         // We'll recieve a response from that request; so
         // we introduce a callback function with an arrow
         // function expression that will recieve a request
-        // and a response.
+        // and a response. When you're going to render your
+        // web you use 'res.render' instead of 'res.send'.
 
 app.get('/', (req, res) => {
-    res.end('My response from express')
+        res.render('My response from express')
 })
 
 app.get('/services', (req, res) => {
-        res.end('You are in service webpage')
+        res.render('You are in service webpage')
 })
 
         // Serving static files in Express
