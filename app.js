@@ -12,8 +12,8 @@ const port = 3000;
         // engine called EJS and those templates will be at
         // the views directory.
 
-app.set("view engine", "ejs");
-app.set('views', __dirname + './views');
+app.set('view engine', 'ejs');
+app.set('views', './views');
 
         // Serving static files in Express
         // (https://expressjs.com/en/starter/static-files.html)
@@ -38,11 +38,11 @@ app.use(express.static(__dirname + "/public"))
         // web you use 'res.render' instead of 'res.send'.
 
 app.get('/', (req, res) => {
-        res.render('My response from express')
+        res.render('index', {dinamictitle: "my dinamic title"})
 })
 
 app.get('/services', (req, res) => {
-        res.render('You are in service webpage')
+        res.render('services', {dinamicsevicetitle: "my dinamic service title"})
 })
 
         // Serving static files in Express
@@ -51,7 +51,7 @@ app.get('/services', (req, res) => {
         // if doesn't finds a configured route
 
 app.use ((req, res, next) => {
-        res.status(404).sendFile(__dirname + "/public/404.html")
+        res.status(404).render('404')
 })
 
         // It is important that the server it'll be listening
