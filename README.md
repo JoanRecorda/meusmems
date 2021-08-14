@@ -82,6 +82,8 @@ NOTE: the equivalent framework for Vue could be nuxtjs.org and for example for R
 
 npm install ejs
 
+We'll also download Bootstrap (https://getbootstrap.com/docs/5.1/getting-started/download/) and put its css and js files in the public folder. Then we enable the css access at the head.ejs template with the href="./css/bootstrap.css".
+
 
 
 
