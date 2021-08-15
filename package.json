@@ -4,7 +4,8 @@
   "description": "1. [General Info](#general-info)\r 2. [Technologies](#technologies)\r 3. [Installation](#installation)\r 4. [Collaboration](#collaboration)\r 5. [FAQs](#faqs)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
