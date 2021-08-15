@@ -1,7 +1,7 @@
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
-3. [Installation](#installation)
+3. [Installation and ](#installation)
 4. [Setup](#setup)
 5. [Collaboration](#collaboration)
 6. [FAQs](#faqs)
@@ -43,57 +43,63 @@ https://bluuweb.github.io/node/
 * Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
 Node.js is a tool in the Frameworks (Full Stack) category of a tech stack. Check this.
 
-* Once everything has been installed run the app with the following command:
+* Once everything has been installed run the app with the following command (both are ok):
 
 ```
 nodemon app.js
-// or
+```
+
+```
 nodemon app
 ```
 
 
 ## Installation
 ***
-Download from nodejs.org and install node.js. Check version with:
+* Download from nodejs.org and install node.js. Check version with:
 
+```
 node -v
+```
 
-Once installed add the following command and execute to create package.json:
+* Once installed add the following command and execute to create package.json:
 
+```
 npm init -y
+```
 
-Then, install the cowsay NPM Package (Node Package Manager, https://www.npmjs.com/package/cowsay) executing following command:
+* Then, install the cowsay NPM Package (Node Package Manager, https://www.npmjs.com/package/cowsay) executing following command:
 
 npm i cowsay
 
-Then, install the Nodemon packaje
+* Then, install the Nodemon packaje
 
 npm install -g nodemon
 
-Once is installed then indicate Nodemon to which file is gonna be listening.
+* Once is installed then indicate Nodemon to which file is gonna be listening.
 
 nodemon app.js
 
-We have also to install Express (http://www.expressjs.com) which will allow us to make the server more easily.npm
+* We have also to install Express (http://www.expressjs.com) which will allow us to make the server more easily.npm
 
 npm install express --save
 
-Then use a template engine to create a dinamic webpage (http://expressjs.com/en/resources/template-engines.html) because we won't develope with the typical html. In this case, we'll use EJS template (https://ejs.co/#install).
+* Then use a template engine to create a dinamic webpage (http://expressjs.com/en/resources/template-engines.html) because we won't develope with the typical html. In this case, we'll use EJS template (https://ejs.co/#install).
 
-NOTE: the equivalent framework for Vue could be nuxtjs.org and for example for React would be nextjs.org framework that is so useful to make SPA webpages who renders from the server-side.
+* NOTE: the equivalent framework for Vue could be nuxtjs.org and for example for React would be nextjs.org framework that is so useful to make SPA webpages who renders from the server-side.
 
 npm install ejs
 
-We'll also download Bootstrap (https://getbootstrap.com/docs/5.1/getting-started/download/) and put its css and js files in the public folder. Then we enable the css access at the head.ejs template with the href="./css/bootstrap.css".
+* We'll also download Bootstrap (https://getbootstrap.com/docs/5.1/getting-started/download/) and put its css and js files in the public folder. Then we enable the css access at the head.ejs template with the href="./css/bootstrap.css".
 
-About Deployment proceed we've follow instructions from the following video: https://www.youtube.com/watch?v=gPOa0LvIwHQ
+* About Deployment proceed we've follow instructions from the following video: https://www.youtube.com/watch?v=gPOa0LvIwHQ
 
-Remember to make the heroku login from the IDE: https://www.adictosaltrabajo.com/2019/12/11/heroku-cli-como-desplegar-una-aplicacion-desde-la-terminal/
-Remember also to install properly the Heroku CLI following this instructions: https://dashboard.heroku.com/apps/meusmems/deploy/heroku-git
+* Remember to make the heroku login from the IDE: https://www.adictosaltrabajo.com/2019/12/11/heroku-cli-como-desplegar-una-aplicacion-desde-la-terminal/
+* Remember also to install properly the Heroku CLI following this instructions: https://dashboard.heroku.com/apps/meusmems/deploy/heroku-git
 
 $ heroku login > $ git init > $ heroku git:remote -a meusmems > $ git add . > $ git commit -am "make it better" > $ git push heroku HEAD:master (the following command didn't worked to me= $ git push heroku master)
 
-If that doesn't works it's necessary to change the port at the const.port: https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error
+* If that doesn't works it's necessary to change the port at the const.port: https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error
 
 
 
