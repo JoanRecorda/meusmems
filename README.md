@@ -84,7 +84,7 @@ npm install ejs
 
 We'll also download Bootstrap (https://getbootstrap.com/docs/5.1/getting-started/download/) and put its css and js files in the public folder. Then we enable the css access at the head.ejs template with the href="./css/bootstrap.css".
 
-
+About Deployment proceed we've follow instructions from the following video: https://www.youtube.com/watch?v=gPOa0LvIwHQ
 
 
 # nodejscounter
