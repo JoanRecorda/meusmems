@@ -89,7 +89,10 @@ About Deployment proceed we've follow instructions from the following video: htt
 Remember to make the heroku login from the IDE: https://www.adictosaltrabajo.com/2019/12/11/heroku-cli-como-desplegar-una-aplicacion-desde-la-terminal/
 Remember also to install properly the Heroku CLI following this instructions: https://dashboard.heroku.com/apps/meusmems/deploy/heroku-git
 
-$ git init > $ heroku git:remote -a meusmems > $ git add . > $ git commit -am "make it better" > $ git push heroku master
+$ heroku login > $ git init > $ heroku git:remote -a meusmems > $ git add . > $ git commit -am "make it better" > $ git push heroku HEAD:master (the following command didn't worked to me= $ git push heroku master)
+
+If that doesn't works it's necessary to change the port at the const.port: https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error
+
 
 
 

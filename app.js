@@ -4,7 +4,12 @@
         
 const express = require('express');
 const app = express();
-const port = 3000;
+
+        // That's an environment variable that has to search
+        // variable called PORT in our server, but in case
+        // that doesn't exists it'll use the port 3000.
+
+const port = process.env.PORT || 3000;
 
         // Then we add the EJS templates engine for express
         // and also specify the views directory. With this we
