@@ -86,9 +86,14 @@ We'll also download Bootstrap (https://getbootstrap.com/docs/5.1/getting-started
 
 About Deployment proceed we've follow instructions from the following video: https://www.youtube.com/watch?v=gPOa0LvIwHQ
 
+Remember to make the heroku login from the IDE: https://www.adictosaltrabajo.com/2019/12/11/heroku-cli-como-desplegar-una-aplicacion-desde-la-terminal/
+
 
 # nodejscounter
 Node.js exercise based in a counter
+
+
+
 
 
 
