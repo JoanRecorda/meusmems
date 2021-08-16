@@ -16,12 +16,18 @@ https://img.shields.io/github/commit-activity/y/JoanRecorda/meusmems?logo=Github
 
 https://img.shields.io/tokei/lines/github/JoanRecorda/meusmems?logo=Github
 
+[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/stargazers/)
+
+
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation and Setup](#installation-setup)
 4. [Collaboration](#collaboration)
 6. [FAQs](#faqs)
+
+[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
+
 
 ## General Info
 ***
