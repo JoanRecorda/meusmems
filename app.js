@@ -66,11 +66,3 @@ app.use ((req, res, next) => {
 app.listen(port, () => {
     console.log('server serving in the port', port);
 })
-
-
-
-piugoig
-
-kutfiutf
-
-luhkjhgfluyg
